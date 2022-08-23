@@ -2674,21 +2674,27 @@ input, select, textarea {
 /* Banner */
 
 	#banner {
-		background-image: url("../../images/donations-keeps-me-going-g6ca7aad00_1280.jpg");
+		background-image: url("../../images/Logo\ Instagram\ para\ conserto\ de\ celulares\ colorido\ azul\ e\ laranja.png");
 		background-position: center center;
 		background-size: cover;
 		height: 28em;
 		text-align: center;
 		position: relative;
+		
 	}
-
+@media(max-width:600px){
+	#banner{
+		width: 490px;
+		
+	}
+}
 		#banner header {
 			position: absolute;
 			bottom: 0;
 			left: 0;
 			width: 100%;
 			background: black;
-			background: rgba(0, 0, 0, 0.856);
+			background: rgba(0, 0, 0, 0.842);
 			color: white;
 			padding: 1.5em 0;
 		}
